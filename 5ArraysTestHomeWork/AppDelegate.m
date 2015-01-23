@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "Human.h"
+#import "Cyclist.h"
+#import "Runner.h"
+#import "Swimmer.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,29 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#pragma mark - Pupil level
+    
+    NSLog(@"- - - - - Pupil level - - - - - ");
+    Human* human =[[Human alloc]init];
+    Cyclist* cyclist =[[Cyclist alloc]init];
+    Runner* runner =[[Runner alloc] init];
+    Swimmer* swimmer =[[Swimmer alloc]init];
+    
+    /*NSLog(@"%@",human);
+    [human movement];
+    NSLog(@"%@",cyclist);
+    [cyclist movement];
+    NSLog(@"%@",runner);
+    [cyclist movement];
+    NSLog(@"%@",swimmer);
+    [swimmer movement];
+    */
+    NSArray* humans =[NSArray arrayWithObjects:human,cyclist,runner,swimmer, nil];
+    for(Human *human in humans){
+        NSLog(@"%@",human);
+    }
+        
+    
     return YES;
 }
 

@@ -14,6 +14,10 @@
 		849DC12E1A72616500811057 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849DC12D1A72616500811057 /* Images.xcassets */; };
 		849DC1311A72616500811057 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 849DC12F1A72616500811057 /* LaunchScreen.xib */; };
 		849DC13D1A72616500811057 /* _ArraysTestHomeWorkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC13C1A72616500811057 /* _ArraysTestHomeWorkTests.m */; };
+		849DC1481A72629500811057 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC1471A72629500811057 /* Human.m */; };
+		849DC14B1A72669100811057 /* Cyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC14A1A72669100811057 /* Cyclist.m */; };
+		849DC14E1A7266BB00811057 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC14D1A7266BB00811057 /* Runner.m */; };
+		849DC1511A7266D400811057 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC1501A7266D400811057 /* Swimmer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,14 @@
 		849DC1361A72616500811057 /* 5ArraysTestHomeWorkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 5ArraysTestHomeWorkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849DC13B1A72616500811057 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		849DC13C1A72616500811057 /* _ArraysTestHomeWorkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _ArraysTestHomeWorkTests.m; sourceTree = "<group>"; };
+		849DC1461A72629500811057 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		849DC1471A72629500811057 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		849DC1491A72669100811057 /* Cyclist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cyclist.h; sourceTree = "<group>"; };
+		849DC14A1A72669100811057 /* Cyclist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cyclist.m; sourceTree = "<group>"; };
+		849DC14C1A7266BB00811057 /* Runner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Runner.h; sourceTree = "<group>"; };
+		849DC14D1A7266BB00811057 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
+		849DC14F1A7266D400811057 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
+		849DC1501A7266D400811057 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +93,15 @@
 		849DC11F1A72616500811057 /* 5ArraysTestHomeWork */ = {
 			isa = PBXGroup;
 			children = (
+				849DC1521A7266EF00811057 /* HUMAN */,
+				849DC1461A72629500811057 /* Human.h */,
+				849DC1471A72629500811057 /* Human.m */,
+				849DC1491A72669100811057 /* Cyclist.h */,
+				849DC14A1A72669100811057 /* Cyclist.m */,
+				849DC14C1A7266BB00811057 /* Runner.h */,
+				849DC14D1A7266BB00811057 /* Runner.m */,
+				849DC14F1A7266D400811057 /* Swimmer.h */,
+				849DC1501A7266D400811057 /* Swimmer.m */,
 				849DC1241A72616500811057 /* AppDelegate.h */,
 				849DC1251A72616500811057 /* AppDelegate.m */,
 				849DC1271A72616500811057 /* ViewController.h */,
@@ -117,6 +138,13 @@
 				849DC13B1A72616500811057 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		849DC1521A7266EF00811057 /* HUMAN */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = HUMAN;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +247,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				849DC14B1A72669100811057 /* Cyclist.m in Sources */,
+				849DC14E1A7266BB00811057 /* Runner.m in Sources */,
 				849DC1291A72616500811057 /* ViewController.m in Sources */,
 				849DC1261A72616500811057 /* AppDelegate.m in Sources */,
 				849DC1231A72616500811057 /* main.m in Sources */,
+				849DC1481A72629500811057 /* Human.m in Sources */,
+				849DC1511A7266D400811057 /* Swimmer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
