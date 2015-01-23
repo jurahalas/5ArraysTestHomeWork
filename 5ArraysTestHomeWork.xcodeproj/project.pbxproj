@@ -18,6 +18,7 @@
 		849DC14B1A72669100811057 /* Cyclist.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC14A1A72669100811057 /* Cyclist.m */; };
 		849DC14E1A7266BB00811057 /* Runner.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC14D1A7266BB00811057 /* Runner.m */; };
 		849DC1511A7266D400811057 /* Swimmer.m in Sources */ = {isa = PBXBuildFile; fileRef = 849DC1501A7266D400811057 /* Swimmer.m */; };
+		84DB20421A728B1C00E43293 /* HeirHuman.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB20411A728B1C00E43293 /* HeirHuman.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		849DC14D1A7266BB00811057 /* Runner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Runner.m; sourceTree = "<group>"; };
 		849DC14F1A7266D400811057 /* Swimmer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Swimmer.h; sourceTree = "<group>"; };
 		849DC1501A7266D400811057 /* Swimmer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Swimmer.m; sourceTree = "<group>"; };
+		84DB20401A728B1C00E43293 /* HeirHuman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeirHuman.h; sourceTree = "<group>"; };
+		84DB20411A728B1C00E43293 /* HeirHuman.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeirHuman.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				849DC14D1A7266BB00811057 /* Runner.m */,
 				849DC14F1A7266D400811057 /* Swimmer.h */,
 				849DC1501A7266D400811057 /* Swimmer.m */,
+				84DB20401A728B1C00E43293 /* HeirHuman.h */,
+				84DB20411A728B1C00E43293 /* HeirHuman.m */,
 				849DC1241A72616500811057 /* AppDelegate.h */,
 				849DC1251A72616500811057 /* AppDelegate.m */,
 				849DC1271A72616500811057 /* ViewController.h */,
@@ -254,6 +259,7 @@
 				849DC1231A72616500811057 /* main.m in Sources */,
 				849DC1481A72629500811057 /* Human.m in Sources */,
 				849DC1511A7266D400811057 /* Swimmer.m in Sources */,
+				84DB20421A728B1C00E43293 /* HeirHuman.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +452,7 @@
 				849DC1421A72616500811057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		849DC1431A72616500811057 /* Build configuration list for PBXNativeTarget "5ArraysTestHomeWorkTests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +461,7 @@
 				849DC1451A72616500811057 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

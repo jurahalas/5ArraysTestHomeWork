@@ -11,6 +11,7 @@
 #import "Cyclist.h"
 #import "Runner.h"
 #import "Swimmer.h"
+#import "HeirHuman.h"
 
 @interface AppDelegate ()
 
@@ -41,8 +42,25 @@
     NSArray* humans =[NSArray arrayWithObjects:human,cyclist,runner,swimmer, nil];
     for(Human *human in humans){
         NSLog(@"%@",human);
+        [human movement];
     }
+    
+#pragma mark - Student level
+    
+    NSLog(@"- - - - - Student level - - - - - ");
+    HeirHuman* heirhuman =[[HeirHuman alloc]init];
+
+    NSArray* heirhumans =[NSArray arrayWithObjects:human,cyclist,runner,swimmer, heirhuman, nil];
+    for (Human *human in heirhumans) {
+        NSLog(@"%@",human);
+        [human movement];
         
+        if ([heirhumans isKindOfClass:[HeirHuman class]]){
+            NSLog(@"%@",heirhuman);
+            
+            
+        }
+    }
     
     return YES;
 }
